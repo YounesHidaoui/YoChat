@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+   
+    
+}
+
+
+.chats{
+    margin-top: 40px;
+  
+    display: flex;
+    flex-direction: wrap;
+ 
+    width: auto;
+    height: 90vh;
+    
+}
+.chats-box {
+    flex: 40%;
+    width:56%;
+    height: 90vh;
+    background-color: #aaadb5;
+    float: right;
+   
+
+    
+}
+
+.body-chat{
+    background-color: #64c679;
+}
+.chat-box-search{
+    margin:10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.chats-box-items{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chat-space{
+
+    width:100%;
+    height: 90vh;
+    background-color: #292F3F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 60%;
+}
+
+.head-chat{
+    width: 100%;
+    float: right;
+    height: 13vh;
+    background-color: #3C3B60;
+     display: flex;
+     
+   
+}
+.name-clone h2{
+    margin: 30px 10px;
+    font-weight: 700;
+    color: #a09ea3;
+}
+.img-clone img {
+ 
+    margin: 10px;
+    border-radius: 46% 47%;
+    box-shadow:-2px 4px 22px -8px  #77717a ;
+    width:65px;
+    height:55px;
+    float: left;
+    border-radius:50%;
+  
+}
+
+
+.chats-box {
+    overflow: auto;
+}
+
+.img-text{
+    display: flex;
+
+}
+
+.img-text p {
+    padding-top: 50px;
+    margin-left: -40px;
+}
+.box-chat img{
+    width:60px;
+    height:50px;
+      float: left;
+      border-radius:50%;
+    
+}
+.box-chat{
+    cursor: pointer;
+}
+.box-chat::after {
+   
+    content: "";
+    clear: both;
+    display: table;
+  }
+.box-chat .img-text h4{
+
+    color:#dee2efda; 
+    margin-left: 10px;
+    font-weight: 800;
+}
+.box-chat p{
+    color:#959698;
+    text-align: center;
+    
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.box-chat img:hover{
+    box-shadow:-2px 4px 22px -8px  #eeeff2;
+}
+
+.chat-box-search input {
+    background-color: #3C3B60;
+    border: none;
+    box-shadow:0.7px 0.5px 1px 1px #292F3F;
+}
+.chat-box-search input::placeholder{
+    color: #afb6ca;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chat-box-search input:hover{
+    background: none;
+    border: 0.5px whitesmoke;
+}
+
+.body-chat{
+    position: relative;
+}
+
+/*
+.footer-chat{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+  
+    bottom:0%;
+    background-color: #e2e2e4;
+   height: 13vh;
+}
+.upload-chatting {
+    width: 100%;
+    flex:10%;
+    background-color: blue;
+    float: right;
+}
+
+
+.input-chatting{
+    flex: 90%;
+    width: 100%;
+    background-color: red;
+}
+
+*/
+
+.file-input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .custom-button {
+    display: inline-block;
+    width: 50px;
+    height: 9vh;
+    border: none;
+
+    background-color: none;
+    color: #333;
+   
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #858486;
+  }
+  
+  /* Optional: Style the file name display */
+  .custom-button:after {
+    content: attr(data-file-name);
+    margin-left: 10px;
+    font-style: italic;
+    color: #777;
+  }
+  
+
+  .footer-chatting{
+    padding: 0;
+    width: 100%;
+    background-color:  #7275da;
+    display: flex;
+  }
+
+
+.text-chatting  {
+    
+        width: 100%;
+        height: auto;
+  }
+  .text-chatting input {
+    width: 100%;
+    height: 9vh;
+}
+
+
+.custom-button span {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.d{
+    position: fixed;
+   top: 1;
+   bottom: 0;
+    right: 0%;
+    left: 39%;
+    width: 730px;
+}
+
+.i button{
+    background-color: #292F3F;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(48, 45, 45);
+    border-radius: 50%;
+    height: 44px;
+    width: 43px;
+}
+.i button:hover{
+    background-color: #64c679;
+}
+.box-chat h4{
+    text-transform: capitalize;
+}
+
